@@ -1,0 +1,97 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#head {
+    font-size: 50px;
+}
+
+#explain {
+    font-size: 30px;
+}
+
+#start {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}
+
+#btnA {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}
+
+#btnB {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}
+
+#btnC {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}
+
+#btnD {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}
+
+#form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#submit {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}
+
+#clear {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}
+
+#goBack {
+    height: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: purple;
+    border-radius: 4px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="grid">
+        <div id="welcome">
+            <h1 id="head">Javascript Quiz</h1>
+            <p id="explain">Test your knowledge of javascript, and track your scores!</p>
+            <button id="start">Start the Quiz</button>
+        </div>
+
+        <div id="quiz">
+            <h1>Question:</h1>
+                </br>
+            <p id="question"></p>
+
+            <div class="answerBtns">
+                <button id="btnA"><span id="choiceA"></span></button>
+                <button id="btnB"><span id="choiceB"></span></button>
+                <button id="btnC"><span id="choiceC"></span></button>
+                <button id="btnD"><span id="choiceD"></span></button>
+            </div>
+        </div>
+
+        <div id="score">
+            <h1 id="finished">Congrats! You're done!</h1>
+            <div id="yourScore"></div>
+            <div id="scoreTrack">
+                <form id="form">
+                    Enter your initials here:
+                    <input type= "text">
+                    <input id="submit" type="submit">
+                </form>
+            </div>
+        </div>
+
+        <div id="scoreSheet">
+            <h1>High Scores:</h1>
+            <div id="highScores"></div>
+            <button id="goBack">Go Back</button>
+            <button id="clear">Clear High Scores</button>
+        </div>
+    </div>
+</body>
+</html>

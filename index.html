@@ -16,44 +16,59 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <div id="grid">
-        <div id="welcome">
+
+
+    <div id="wrapper">
+
+        <div id="start">
             <h1 id="head">Javascript Quiz</h1>
             <p id="explain">Test your knowledge of javascript, and track your scores!</p>
-            <button id="start">Start the Quiz</button>
+            <div id="startquiz">Start the Quiz</div>
         </div>
 
-        <div id="quiz">
-            <h1>Question:</h1>
-                </br>
-            <p id="question"></p>
-
-            <div class="answerBtns">
-                <button id="btnA"><span id="choiceA"></span></button>
-                <button id="btnB"><span id="choiceB"></span></button>
-                <button id="btnC"><span id="choiceC"></span></button>
-                <button id="btnD"><span id="choiceD"></span></button>
-            </div>
-        </div>
-
-        <div id="score">
+        <div id="score" style="display: none">
             <h1 id="finished">Congrats! You're done!</h1>
             <div id="yourScore"></div>
             <div id="scoreTrack">
                 <form id="form">
                     Enter your initials here:
-                    <input type= "text">
+                    <input id="userInitials" type= "text">
                     <input id="submit" type="submit">
                 </form>
             </div>
         </div>
 
-        <div id="scoreSheet">
+        <div id="scoreSheet" style="display: none">
             <h1>High Scores:</h1>
             <div id="highScores"></div>
             <button id="goBack">Go Back</button>
             <button id="clear">Clear High Scores</button>
         </div>
+
+        <div id="quiz" style="display: none">
+
+            <div id="question"></div>
+
+            <div id="choices">
+
+                <div class="choice" id="A" onclick="checkChoice ('A')"></div>
+                <div class="choice" id="B" onclick="checkChoice ('B')"></div>
+                <div class="choice" id="C" onclick="checkChoice ('C')"></div>
+                <div class="choice" id="D" onclick="checkChoice ('D')"></div>
+            </div>
+
+        
+
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="timeGauge"></div>
+        </div>
+
+        <div id="progress"></div>
+
+        </div>
+
     </div>
+    <script src="code.js"></script>
 </body>
 </html>

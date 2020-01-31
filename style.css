@@ -4,6 +4,16 @@ body{
     margin-top: 30px;
 }
 
+#wrapper {
+    width: 85%;
+    height: 80%;
+    border-width: 3px;
+    border-radius: 1.5px;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 30px;
+}
+
 #head {
     font-size: 50px;
 }
@@ -12,7 +22,7 @@ body{
     font-size: 30px;
 }
 
-#start {
+#startquiz {
     height: 30px;
     width: 150px;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +32,7 @@ body{
     border-radius: 4px;
 }
 
-#btnA {
+.choice {
     height: 30px;
     width: 150px;
     font-family: Arial, Helvetica, sans-serif;
@@ -32,34 +42,26 @@ body{
     border-radius: 4px;
 }
 
-#btnB {
-    height: 30px;
-    width: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 15px;
-    background-color: purple;
-    border-radius: 4px;
+#quiz {
+    width: 85%;
+    height: 80%;
+    border-width: 3px;
+    border-radius: 1.5px;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 30px;
+    font: black;
+    font-size: 20px;
 }
 
-#btnC {
-    height: 30px;
-    width: 150px;
+#question {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     font-size: 15px;
-    background-color: purple;
-    border-radius: 4px;
 }
 
-#btnD {
-    height: 30px;
-    width: 150px;
+#choices {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     font-size: 15px;
-    background-color: purple;
-    border-radius: 4px;
 }
 
 #form {
